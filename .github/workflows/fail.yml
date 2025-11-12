@@ -12,4 +12,4 @@ jobs:
         runs-on: ubuntu-slim
         steps:
             - name: Fail step
-              run: exit 2
+              run: exit 1
