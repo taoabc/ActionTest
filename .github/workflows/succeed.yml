@@ -1,0 +1,15 @@
+name: Test
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+  push:
+    branches:
+      - "main"
+
+jobs:
+    succeed-job:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Succeed step
+              run: echo "This step succeeds"
