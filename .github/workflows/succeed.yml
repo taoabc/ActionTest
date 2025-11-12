@@ -9,7 +9,7 @@ on:
 
 jobs:
     succeed-job:
-        runs-on: ubuntu-latest
+        runs-on: ubuntu-slim
         steps:
             - name: Succeed step
               run: echo "This step succeeds"
